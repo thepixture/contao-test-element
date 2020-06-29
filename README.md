@@ -1,1 +1,1 @@
-# contao-test-element
+test-element
