@@ -1,0 +1,36 @@
+{
+    "name": "thepixture/test-element",
+    "type": "contao-bundle",
+    "description": "Testentwicklung eines Inhaltselements für Contao 4.9.",
+    "homepage": "https://contao.org",
+    "license": "LGPL-3.0-or-later",
+    "authors": [{
+        "name": "thepixture",
+        "homepage": "https://github.com/thepixture"
+    }],
+    "require": {
+        "php": "^7.0",
+        "contao/core-bundle": "^4.6",
+        "symfony/framework-bundle": "^3.3|^4.4"
+    },
+    "conflict": {
+        "contao/core": "*",
+        "contao/manager-plugin": "<2.0 || >=3.0"
+    },
+    "require-dev": {
+        "contao/manager-plugin": "^2.0",
+        "doctrine/doctrine-cache-bundle": "^1.3"
+    },
+    "extra": {
+        "contao-manager-plugin": "Thepixture\\TestElementBundle\\ContaoManager\\Plugin"
+    },
+    "autoload": {
+        "psr-4": {
+            "Thepixture\\TestElementBundle\\": "src/"
+        }
+    },
+    "support": {
+        "issues": "https://github.com/thepixture/test-element/issues",
+        "source": "https://github.com/thepixture/test-element"
+    }
+}
