@@ -2,7 +2,7 @@
     "name": "thepixture/test-element",
     "type": "contao-bundle",
     "description": "Testentwicklung eines Inhaltselements für Contao 4.9.",
-    "homepage": "https://contao.org",
+    "homepage": "https://github.com/thepixture",
     "license": "LGPL-3.0-or-later",
     "authors": [{
         "name": "thepixture",
