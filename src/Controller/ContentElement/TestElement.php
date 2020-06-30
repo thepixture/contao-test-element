@@ -12,8 +12,7 @@ use Symfony\Component\HttpFoundation\Response;
 /**
  * @ContentElement("thepixture_test_element",
  * category="texts",
- * template="ce_thepixture_test_element",
- * renderer="forward")
+ * template="ce_thepixture_test_element")
  */
 class TestElementController extends AbstractContentElementController
 {
