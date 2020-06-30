@@ -1,4 +1,7 @@
 services:
+    _defaults:
+        autoconfigure: true
+
     Thepixture\TestElementBundle\Controller\ContentElement\TestElementController: ~
 
     _instanceof:
