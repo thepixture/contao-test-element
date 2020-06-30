@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Controller\ContentElement;
+namespace Thepixture\TestElementBundle\Controller\ContentElement;
 
 use Contao\ContentModel;
 use Contao\CoreBundle\Controller\ContentElement\AbstractContentElementController;
