@@ -2,7 +2,7 @@ services:
     _defaults:
         autoconfigure: true
 
-    Thepixture\TestElementBundle\Controller\ContentElement\TestElementController: ~
+    Thepixture\TestElementBundle\Controller\ContentElement: ~
 
     _instanceof:
         Contao\CoreBundle\Framework\FrameworkAwareInterface:
